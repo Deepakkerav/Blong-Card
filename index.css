@@ -21,17 +21,17 @@ body{
   align-items: center;
   justify-content: center;
 
-  div#container{
+  div.container{
     width: min-content;
      border: 2px solid  var(--color-3);
-     padding: 2em;
+     padding:max(20px,2%);
      background-color:var(--color-2);
      box-shadow: 1cap 1cap var(--color-4);
      border-radius: 2em;
 
      /* imgaeof */
-     #container > img{
-      border: 5px soli blue;
+     .container > img{
+      border: 3rem soli blue;
        border-radius: 2px;
 
      }
@@ -60,7 +60,7 @@ body{
   }
 }
 @media (max-width:375px) {
-    I #container{
+    I .container{
       width: 80%;
     }
 }
