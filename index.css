@@ -22,7 +22,9 @@ body{
   justify-content: center;
 
   div.container{
-    width: min-content;
+    /* width: min-content; */
+     width: min(400px,90%);
+     margin: auto;
      border: 2px solid  var(--color-3);
      padding:max(20px,2%);
      background-color:var(--color-2);
@@ -35,7 +37,7 @@ body{
        border-radius: 2px;
 
      }
-     p,#author{
+     p,.uthor{
        padding:0.3em;
      }
      img + p{
@@ -50,7 +52,7 @@ body{
      .Hrm + p{
       opacity: 0.5;
      }
-     #author{
+     .author{
         display: flex;
         align-items: center;
          label{
