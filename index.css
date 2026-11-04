@@ -26,14 +26,14 @@ body{
      width: min(400px,90%);
      margin: auto;
      border: 2px solid  var(--color-3);
-     padding:max(20px,2%);
+     padding:clamp(1rem,5vw,2em);
      background-color:var(--color-2);
      box-shadow: 1cap 1cap var(--color-4);
      border-radius: 2em;
 
      /* imgaeof */
      .container > img{
-      border: 3rem soli blue;
+      border: 3rem solid blue;
        border-radius: 2px;
 
      }
@@ -60,9 +60,4 @@ body{
          }
      }
   }
-}
-@media (max-width:375px) {
-    I .container{
-      width: 80%;
-    }
 }
