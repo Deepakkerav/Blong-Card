@@ -43,8 +43,14 @@ body{
      img + p{
            display: inline-block;
           font-weight: bold;
-          margin:0.2em;
+          margin:clamp(.5rem,5vw,1rem);
            background-color: var(--color1)
+     }
+     .img{
+      width:100%;
+      max-width: 21rem;
+      
+      border-radius: 1rem;
      }
      p.Hrm{
       font-weight: bold;
