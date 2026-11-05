@@ -23,7 +23,7 @@ body{
 
   div.container{
     /* width: min-content; */
-     width: min(400px,90%);
+     width: min(25rem,90%);
      margin: auto;
      border: 2px solid  var(--color-3);
      padding:clamp(1rem,5vw,2em);
@@ -38,7 +38,7 @@ body{
 
      }
      p,.uthor{
-       padding:0.3em;
+       padding:min(0.3em,2rem);
      }
      img + p{
            display: inline-block;
